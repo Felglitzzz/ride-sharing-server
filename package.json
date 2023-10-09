@@ -1,0 +1,27 @@
+{
+  "name": "ride-sharing-server",
+  "version": "1.0.0",
+  "description": "server for a ride sharing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felglitzzz/ride-sharing-server.git"
+  },
+  "author": "Felix Amande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felglitzzz/ride-sharing-server/issues"
+  },
+  "homepage": "https://github.com/Felglitzzz/ride-sharing-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
